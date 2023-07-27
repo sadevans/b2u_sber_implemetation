@@ -41,18 +41,12 @@ Please put your training dataset under the path: **./b2u_sber_implemetation/data
 ​	Please put your validation dataset under the path: **./b2u_sber_implemetation/data/test**.
 
 ## Pretrained Models
-You can download pre-trained models here: [Google Drive](https://drive.google.com/drive/folders/1ruA6-SN1cyf30-GHS8w2YD1FG-0A-k7h?usp=sharing) 
-
-
-The pre-trained models are placed in the folder: **./b2u_sber_implemetation/pretrained_models**
-
+You can find pre-trained models here: **./b2u_sber_implemetation/pretrained_models**
 
 Models were trained on datasets G-209, Crystal_focus_0_dose_180, G-146
 
-
 ```yaml
 # # For more noisy datasets processing use model firstly trained on G-209
-
 ./pretrained_models/b2u_first.pth
 # Than use model secondly trained on G-209 denoised by first model
 ./pretrained_models/b2u_second.pth
